@@ -9,9 +9,9 @@ public class UsersTest {
 	public static void main(String[] args) {
 		
 		Users usrObj = new Users();
-		usrObj.setEmail("kamal.sharma@gmail.com");
-		usrObj.setFullName("kamal Sharma");
-		usrObj.setPassword("root");
+		usrObj.setEmail("jacky.jock@gmail.com");
+		usrObj.setFullName("jacky jock");
+		usrObj.setPassword("jacky");
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		
